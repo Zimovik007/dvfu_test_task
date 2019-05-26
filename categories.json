@@ -1,0 +1,12 @@
+{
+    "categories": [
+        {"id": 1, "name": "Пользователи", "alias": "/users", "children": [2, 3, 4]},
+        {"id": 2, "name": "Создание", "alias": "/create", "children": []},
+        {"id": 3, "name": "Список", "alias": "/list", "children": [6, 7]},
+        {"id": 4, "name": "Поиск", "alias": "/search", "children": []},
+        {"id": 5, "name": "Заявки", "alias": "/requests", "children": [8]},
+        {"id": 6, "name": "Активные", "alias": "/active", "children": []},
+        {"id": 7, "name": "Удаленные", "alias": "/deleted", "children": []},
+        {"id": 8, "name": "Заявки на подключение", "alias": "/connecting", "children": []}
+    ]
+}
