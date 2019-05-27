@@ -10,12 +10,14 @@
     <title>DVFU</title>
 </head>
 <body>
+    
     <h3>Навигация</h3>
     <?php
         foreach ($res as $nav) {
             printf("<p>%s%s %s</p>", str_repeat("&nbsp;", $nav[0]), $nav[1], $nav[2]);
         }
     ?>
+
     <h4>Один уровень вложенности</h4>
     <?php
         foreach ($oneLevelNested as $nav) {
