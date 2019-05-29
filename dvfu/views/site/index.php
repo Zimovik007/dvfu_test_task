@@ -15,3 +15,6 @@
         printf("<p>%s%s</p>", str_repeat("&nbsp;&nbsp;", $nav[0]), $nav[1]);
     }
 ?>
+
+<div id="categories" data="<?= json_encode($categories) ?>"></div>
+<div id="oneLevelNested" data="<?= json_encode($oneLevelNestedCategories) ?>"></div>
